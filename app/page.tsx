@@ -112,11 +112,12 @@ export default function Home() {
         </div>
       </footer>
 
-    
-
-       <div className="h-full bg-slate-950">
-            <elevenlabs-convai agent-id="agent_5701kp5vz7hcft6vtye5awr118cg" />
-          </div>
+      <div className="h-full bg-slate-950">
+        {
+          // @ts-ignore
+          <elevenlabs-convai agent-id="agent_5701kp5vz7hcft6vtye5awr118cg" />
+        }
+      </div>
 
       <script
         src="https://unpkg.com/@elevenlabs/convai-widget-embed"
